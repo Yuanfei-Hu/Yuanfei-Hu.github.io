@@ -1,6 +1,6 @@
 # Yuanfei (Cheyenne) Hu — Research Website
 
-A static, responsive research portfolio designed for GitHub Pages. It uses plain HTML, CSS, and JavaScript: no database, API keys, server runtime, or build step is required.
+A static, responsive multi-page academic website designed for GitHub Pages. It uses plain HTML, CSS, and JavaScript: no database, API keys, server runtime, or build step is required.
 
 ## Preview locally
 
@@ -27,10 +27,14 @@ The site uses relative asset links and therefore works from either a user site o
 | --- | --- |
 | Project details and dialog copy | `dist/data/content.js` |
 | Homepage and primary introduction | `dist/index.html` |
-| Research interests and questions | `dist/research.html` |
-| Detailed projects and outputs | `dist/work.html` |
-| Background, education, and contact | `dist/about.html` |
-| Life-gallery copy | `dist/life.html` |
+| Research interests and questions | `dist/research/index.html` |
+| Selected-project index | `dist/work/index.html` |
+| Individual research projects | `dist/work/<project-slug>/index.html` |
+| Papers, code, and materials | `dist/outputs/index.html` |
+| Education and research trajectory | `dist/path/index.html` |
+| Life-section shell | `dist/life/index.html` |
+| Short academic biography | `dist/about/index.html` |
+| Contact and collaboration information | `dist/contact/index.html` |
 | Colors, typography, spacing, responsive rules | `dist/assets/css/site.css` |
 | Interactions and simulations | `dist/assets/js/site.js` |
 | CV | Replace `dist/assets/docs/Yuanfei_Cheyenne_Hu_CV.pdf` with the same filename |
@@ -57,7 +61,7 @@ The gallery and full-screen viewer will appear automatically. Until then, the we
 
 ## Add an output or link
 
-Copy an existing item in the `#outputs` section of `dist/index.html`. Include only buttons with real URLs. A future Google Scholar link should remain hidden until its public profile URL is available.
+Copy an existing item in `dist/outputs/index.html`. Include only links with real destinations. A future Google Scholar link should remain hidden until its public profile URL is available.
 
 ## Accessibility and performance
 

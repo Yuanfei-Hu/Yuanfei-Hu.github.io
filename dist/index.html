@@ -1,50 +1,66 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#081d38">
-  <meta name="description" content="Yuanfei (Cheyenne) Hu studies neural dynamics, memory, NeuroAI, and geometric machine learning.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081d38">
+  <meta name="description" content="Yuanfei (Cheyenne) Hu studies neural dynamics, memory, representation, adaptive behavior, and NeuroAI.">
   <title>Yuanfei (Cheyenne) Hu</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:opsz,wght@9..40,300;400;500;600&family=Newsreader:opsz,wght@6..72,400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/site.css"><script src="./data/content.js" defer></script><script src="./assets/js/site.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:opsz,wght@9..40,300;400;500;600&family=Newsreader:opsz,wght@6..72,400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/site.css">
+  <script src="./data/content.js" defer></script>
+  <script src="./assets/js/site.js" defer></script>
 </head>
-<body class="home-page">
+<body class="home-page academic-site">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header" data-header>
-    <a class="monogram" href="./" aria-label="Yuanfei Hu, home">YH<span>.</span></a>
+  <header class="site-header editorial-header" data-header>
+    <a class="site-name" href="./" aria-label="Yuanfei (Cheyenne) Hu, home">Yuanfei <span>(Cheyenne)</span> Hu</a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open navigation</span></button>
-    <nav id="site-nav" class="site-nav" aria-label="Primary navigation"><a href="./research.html">Research</a><a href="./work.html">Work</a><a href="./about.html">About</a><a href="./life.html">Life</a></nav>
-    <a class="header-cv" href="./assets/docs/Yuanfei_Cheyenne_Hu_CV.pdf" download>CV <span aria-hidden="true">↘</span></a>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="./research/">Research</a><a href="./work/">Work</a><a href="./outputs/">Outputs</a><a href="./path/">Path</a><a href="./life/">Life</a><a href="./about/">About</a><a href="./assets/docs/Yuanfei_Cheyenne_Hu_CV.pdf" target="_blank" rel="noreferrer">CV <span aria-hidden="true">↗</span></a><a href="./contact/">Contact</a>
+    </nav>
   </header>
   <main id="main">
-    <section class="hero academic-hero" aria-labelledby="hero-title">
-      <div class="hero-grid"></div>
+    <section class="hero academic-home-hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
       <div class="hero-copy">
-        <p class="eyebrow">Singapore · MSc Biomedical Informatics, NUS</p>
+        <p class="eyebrow">Computational neuroscience · NeuroAI · dynamical systems</p>
         <h1 id="hero-title">Yuanfei <span>(Cheyenne)</span> Hu</h1>
-        <p class="discipline">Computational neuroscience <i>·</i> applied mathematics <i>·</i> machine learning</p>
-        <div class="home-introduction">
-          <p>I am interested in how memory and adaptive behavior emerge from neural dynamics. My work uses mathematical models, simulation, and machine learning to study persistent activity, replay, and structured representations.</p>
-          <p>I am currently completing an MSc in Biomedical Informatics at the National University of Singapore. Before this, I studied applied mathematics and computational science at Duke Kunshan University and Duke University.</p>
-        </div>
-        <div class="hero-actions"><a class="button button-primary" href="./research.html">Research</a><a class="button button-ghost" href="./work.html">Selected work</a></div>
+        <p class="research-statement">I study how structured neural dynamics support memory, representation and adaptive behavior. My work combines mechanistic modelling, simulation and machine learning to examine how complex patterns of activity can produce stable computation.</p>
+        <p class="affiliation">MSc Biomedical Informatics, National University of Singapore</p>
+        <div class="text-actions"><a href="./research/">Research <span aria-hidden="true">→</span></a><a href="./assets/docs/Yuanfei_Cheyenne_Hu_CV.pdf" target="_blank" rel="noreferrer">CV <span aria-hidden="true">↗</span></a></div>
       </div>
-      <div class="brain-stage" aria-label="Conceptual map of Yuanfei Hu's research and interests">
+      <div class="brain-stage" aria-label="Interactive research map">
         <canvas id="brain-canvas" aria-hidden="true"></canvas><div class="brain-orbit" aria-hidden="true"></div>
-        <div class="brain-label"><span>Conceptual map</span><span>Select a network to open a page</span></div>
-        <div id="brain-card" class="brain-card" aria-live="polite"><span class="brain-card-index">01 / 06</span><p class="brain-card-system">Hippocampal systems</p><p class="brain-card-copy">Memory, replay, and continuous neural representations</p><a class="brain-card-link" href="./work.html#replay">Read about this work <span>↗</span></a></div>
+        <div class="brain-label"><span>Interactive research map</span><span>Explore by region</span></div>
+        <div id="brain-card" class="brain-card" aria-live="polite"><span class="brain-card-index">02 / 06</span><p class="brain-card-system">Hippocampal systems</p><p class="brain-card-copy">Memory, replay, and continuous neural representations</p><a class="brain-card-link" href="./work/memory-replay/">Read project <span>↗</span></a></div>
+        <a class="research-index-link" href="./research/">View research index →</a>
       </div>
-      <nav class="brain-nav" aria-label="Conceptual brain navigation"><button data-brain-region="vision"><span>01</span> Research questions</button><button data-brain-region="memory"><span>02</span> Memory & replay</button><button data-brain-region="geometry"><span>03</span> Geometry & systems</button><button data-brain-region="motor"><span>04</span> Movement</button><button data-brain-region="visual"><span>05</span> Photography</button><button data-brain-region="about"><span>06</span> About & contact</button></nav>
-      <p class="mapping-note">These mappings are thematic, not claims of exclusive anatomical localization.</p>
+      <nav class="brain-nav" aria-label="Text alternative for research map"><button data-brain-region="vision"><span>01</span> Research questions</button><button data-brain-region="memory"><span>02</span> Memory & replay</button><button data-brain-region="geometry"><span>03</span> Geometry & systems</button><button data-brain-region="motor"><span>04</span> Movement</button><button data-brain-region="visual"><span>05</span> Photography</button><button data-brain-region="about"><span>06</span> About & contact</button></nav>
+      <p class="mapping-note">The map is thematic; it does not assign complex functions exclusively to individual brain regions.</p>
     </section>
-    <section class="home-work" aria-labelledby="home-work-title">
-      <div class="plain-page-heading"><p class="eyebrow">Selected work</p><h2 id="home-work-title">Recent research</h2><a href="./work.html">All projects and outputs →</a></div>
-      <div class="home-project-list">
-        <a href="./work.html#replay"><span class="project-year">2025—present</span><h3>Sleep Replay on Continuous Memory Manifolds</h3><p>A computational study of when replay may separate similar memories rather than blend them.</p><span class="project-arrow">↗</span></a>
-        <a href="./work.html#se2"><span class="project-year">Manuscript submitted · 2026</span><h3>Geometry-Informed SE(2) Consistency Monitoring</h3><p>An interpretable fault-monitoring signal based on consistency across coordinate frames.</p><span class="project-arrow">↗</span></a>
-        <a href="./work.html#chaos"><span class="project-year">Duke University · 2024</span><h3>Attractor Networks, Forgetting, and Chaos</h3><p>Reproduction and analysis of transitions among retrieval, drift, and memory loss.</p><span class="project-arrow">↗</span></a>
+
+    <section class="home-questions" aria-labelledby="questions-title">
+      <div class="home-section-heading"><p class="eyebrow">01 · Research</p><h2 id="questions-title">Current questions</h2></div>
+      <ol>
+        <li><span>01</span><p>How can offline neural dynamics reorganize recently formed representations?</p></li>
+        <li><span>02</span><p>Which geometries allow neural and artificial systems to remain stable under transformation?</p></li>
+        <li><span>03</span><p>How can computational models distinguish mechanistic explanation from descriptive fit?</p></li>
+      </ol>
+    </section>
+
+    <section class="home-selected-work" aria-labelledby="selected-work-title">
+      <div class="home-section-heading"><p class="eyebrow">02 · Work</p><h2 id="selected-work-title">Selected work</h2></div>
+      <div class="editorial-project-list">
+        <article><p class="entry-meta">Independent research · 2025—present</p><h3>Memory consolidation and replay in continuous-attractor networks</h3><p class="entry-question">When does replay separate overlapping memories, and when does it increase interference?</p><p>I developed a computational model and matched simulation study of replay on continuous memory representations.</p><a href="./work/memory-replay/">Read project →</a></article>
+        <article><p class="entry-meta">Manuscript submitted · 2026</p><h3>SE(2)-equivariant models for robotic fault detection</h3><p class="entry-question">Can geometric consistency reveal faults under changes of coordinate frame?</p><p>We tested a lightweight detector built from equivariance, kinematic and command–observation residuals.</p><a href="./work/equivariant-fault-detection/">Read project →</a></article>
+        <article><p class="entry-meta">Independent study · 2024</p><h3>Eye movements and episodic memory</h3><p class="entry-question">What can patterns of visual sampling tell us about memory formation and recall?</p><p>I worked with eye-tracking data and computational analyses of human episodic memory.</p><a href="./work/eye-movements-memory/">Read project →</a></article>
       </div>
+      <a class="all-research-link" href="./work/">All research →</a>
     </section>
-    <section class="home-footer-note"><p>I am open to research conversations and opportunities in computational neuroscience, NeuroAI, neural dynamics, and research-oriented machine learning.</p><a href="mailto:yuanfei.hu@u.nus.edu">yuanfei.hu@u.nus.edu ↗</a></section>
   </main>
-  <footer><span>© <span id="year"></span> Yuanfei (Cheyenne) Hu</span><span>Singapore</span><div><a href="https://github.com/Yuanfei-Hu" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/yuanfei-hu-b6a3a22a9/" target="_blank" rel="noreferrer">LinkedIn</a></div></footer>
-</body></html>
+  <footer class="editorial-footer"><div><strong>Yuanfei (Cheyenne) Hu</strong><span>Computational neuroscience · NeuroAI · dynamical systems</span></div><nav aria-label="Footer navigation"><a href="mailto:yuanfei.hu@u.nus.edu">Email</a><a href="https://github.com/Yuanfei-Hu" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/yuanfei-hu-b6a3a22a9/" target="_blank" rel="noreferrer">LinkedIn</a><a href="./assets/docs/Yuanfei_Cheyenne_Hu_CV.pdf" target="_blank" rel="noreferrer">CV</a></nav></footer>
+</body>
+</html>

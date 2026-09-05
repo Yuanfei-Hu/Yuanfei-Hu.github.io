@@ -4,7 +4,9 @@
 
 The site presents Yuanfei first as a researcher rather than as a personal brand. Its tone is direct, first-person, and specific: current position, research questions, completed work, and interpretive limits. The opening retains the neural-map visual identity, but the language is closer to an academic introduction than to campaign or product copy.
 
-Research, Work, About, and Life are separate pages. This prevents the homepage from becoming an exhaustive scrolling CV and lets faculty or recruiters move directly to the material they need. The Life page remains visually distinct without competing with the research identity.
+Research, Work, Outputs, Path, Life, About, and Contact are separate pages. Each selected research project also has its own route. This prevents the homepage from becoming an exhaustive scrolling CV and lets faculty or recruiters move directly to the material they need. The Life page remains secondary and intentionally simple in this iteration.
+
+The first redesign iteration is deliberately structural. The existing interactive brain remains in place as a temporary research-map visual; its form and interaction will be revised separately.
 
 ## Color tokens
 
@@ -38,17 +40,14 @@ Body text starts at 16px. Reading widths stay near 55–70 characters. Major hea
 
 ## Core components
 
-- Fixed page-based navigation with clear current-page state and mobile menu
+- Fixed page-based navigation with eight direct destinations, clear current-page state, and mobile menu
 - Conceptual neural-map canvas with region focus card and list alternative
-- Research page organized around three connected areas and four current questions
-- Interactive continuous-attractor field with pause/reset controls
-- Project case studies with distinct scientific visualizations
-- Native accessible project-detail dialog
-- Work page with project narratives, evidence, and only real output links
-- About page with academic trajectory, methods, understated distinctions, and contact
-- Life-gallery collections with honest empty states
-- Data-driven photograph grid and native lightbox
-- Collaboration/contact close
+- Concise homepage organized around a research statement, three current questions, and three selected projects
+- Research page organized around connected scientific themes and current questions
+- Work index separated from individual project chapters
+- Outputs page containing only real manuscripts, archives, code, and documents
+- Path page separating education and intellectual trajectory from the biography
+- About, Life, and Contact pages with distinct but restrained purposes
 
 ## Brain-region navigation map
 
@@ -56,12 +55,12 @@ These are explicitly thematic mappings, not neuroscientific localization claims.
 
 | Conceptual system | Theme | Destination |
 | --- | --- | --- |
-| Prefrontal systems | Research vision, NeuroAI, adaptive intelligence | Research lens |
-| Hippocampal systems | Memory, replay, consolidation, attractors | Sleep-replay project |
-| Distributed geometric network | Symmetry, invariance, dynamics, SE(2) | Robotics project |
-| Motor systems | Dance, sport, embodied learning | Life / Movement |
-| Visual systems | Photography and observation | Life / Photography |
-| Whole-brain interaction | About, collaboration, contact | Contact |
+| Prefrontal systems | Research questions and themes | `/research/` |
+| Hippocampal systems | Memory, replay, consolidation, attractors | `/work/memory-replay/` |
+| Distributed geometric network | Symmetry, invariance, dynamics, SE(2) | `/work/equivariant-fault-detection/` |
+| Motor systems | Dance, sport, embodied learning | `/life/#movement` |
+| Visual systems | Photography and observation | `/life/#photography` |
+| Whole-brain interaction | Background and contact | `/about/` |
 
 The canvas rotates axially at a very low speed. Pointer movement, keyboard focus on the adjacent list, and touch select themes. The conventional navigation always remains available.
 

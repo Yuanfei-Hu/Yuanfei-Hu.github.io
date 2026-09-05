@@ -1,12 +1,12 @@
 /* Edit this file to update project details and gallery photographs without changing layouts. */
 window.SITE_CONTENT = {
   brainRegions: {
-    vision: { index: "01 / 06", system: "Prefrontal systems", copy: "Research interests and questions I am currently thinking about", action: "Research", href: "./research.html", x: .36, y: .34, color: "#ef6c2f" },
-    memory: { index: "02 / 06", system: "Hippocampal systems", copy: "Memory, replay, and continuous neural representations", action: "Memory work", href: "./work.html#replay", x: .47, y: .58, color: "#ef6c2f" },
-    geometry: { index: "03 / 06", system: "Distributed geometric network", copy: "Symmetry, invariance, dynamics, and SE(2) research", action: "Geometry work", href: "./work.html#se2", x: .62, y: .48, color: "#f1a06f" },
-    motor: { index: "04 / 06", system: "Motor systems", copy: "Dance, sport, and other forms of movement", action: "Life", href: "./life.html#movement", x: .58, y: .25, color: "#a51c30" },
-    visual: { index: "05 / 06", system: "Visual systems", copy: "Photography and selected visual work", action: "Photography", href: "./life.html#photography", x: .77, y: .42, color: "#a51c30" },
-    about: { index: "06 / 06", system: "Whole-brain interaction", copy: "Background, education, and contact", action: "About", href: "./about.html", x: .50, y: .72, color: "#ef6c2f" }
+    vision: { index: "01 / 06", system: "Prefrontal systems", copy: "Research questions and conceptual themes", action: "Research", href: "./research/", x: .36, y: .34, color: "#ef6c2f" },
+    memory: { index: "02 / 06", system: "Hippocampal systems", copy: "Memory, replay, and continuous neural representations", action: "Read project", href: "./work/memory-replay/", x: .47, y: .58, color: "#ef6c2f" },
+    geometry: { index: "03 / 06", system: "Distributed geometric network", copy: "Symmetry, invariance, dynamics, and SE(2) research", action: "Read project", href: "./work/equivariant-fault-detection/", x: .62, y: .48, color: "#f1a06f" },
+    motor: { index: "04 / 06", system: "Motor systems", copy: "Dance, sport, and other forms of movement", action: "Life", href: "./life/#movement", x: .58, y: .25, color: "#a51c30" },
+    visual: { index: "05 / 06", system: "Visual systems", copy: "Photography and selected visual work", action: "Photography", href: "./life/#photography", x: .77, y: .42, color: "#a51c30" },
+    about: { index: "06 / 06", system: "Whole-brain interaction", copy: "Background and ways to get in touch", action: "About", href: "./about/", x: .50, y: .72, color: "#ef6c2f" }
   },
   projects: {
     replay: {
