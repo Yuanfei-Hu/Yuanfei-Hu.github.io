@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081d38">
+  <meta name="description" content="Yuanfei (Cheyenne) Hu is a computational scientist studying memory, neural dynamics, NeuroAI, and geometric machine learning.">
+  <title>Yuanfei (Cheyenne) Hu — Computational Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:opsz,wght@9..40,300;400;500;600&family=Newsreader:opsz,wght@6..72,400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/site.css">
+  <script src="./data/content.js" defer></script>
+  <script src="./assets/js/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="monogram" href="#top" aria-label="Yuanfei Hu, home">YH<span>.</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open navigation</span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#research">Research</a><a href="#work">Work</a><a href="#outputs">Outputs</a><a href="#path">Path</a><a href="./life.html">Life</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cv" href="./assets/docs/Yuanfei_Cheyenne_Hu_CV.pdf" download>CV <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Computational scientist · Singapore</p>
+        <h1 id="hero-title">Yuanfei <span>(Cheyenne)</span> Hu</h1>
+        <p class="discipline">Computational Neuroscience <i>·</i> NeuroAI <i>·</i> Dynamical Systems <i>·</i> Machine Learning</p>
+        <blockquote>Understanding how intelligence unfolds through dynamics.</blockquote>
+        <p class="hero-intro">I use mathematical models and machine learning to study memory, adaptive behavior, and intelligent systems.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore research <span aria-hidden="true">↓</span></a>
+          <a class="button button-ghost" href="./assets/docs/Yuanfei_Cheyenne_Hu_CV.pdf" download>Download CV</a>
+        </div>
+      </div>
+
+      <div class="brain-stage" aria-label="Conceptual brain map">
+        <canvas id="brain-canvas" aria-hidden="true"></canvas>
+        <div class="brain-orbit" aria-hidden="true"></div>
+        <div class="brain-label"><span>Conceptual map</span><span>Drag to rotate · select a network</span></div>
+        <div id="brain-card" class="brain-card" aria-live="polite">
+          <span class="brain-card-index">01 / 06</span>
+          <p class="brain-card-system">Hippocampal systems</p>
+          <p class="brain-card-copy">Memory, replay, and continuous neural representations</p>
+          <a class="brain-card-link" href="#project-replay">Explore research <span>↗</span></a>
+        </div>
+      </div>
+
+      <nav class="brain-nav" aria-label="Conceptual brain navigation">
+        <button data-brain-region="vision" data-target="#research"><span>01</span> Research vision</button>
+        <button data-brain-region="memory" data-target="#project-replay"><span>02</span> Memory & replay</button>
+        <button data-brain-region="geometry" data-target="#project-se2"><span>03</span> Geometry & systems</button>
+        <button data-brain-region="motor" data-target="./life.html#movement"><span>04</span> Movement</button>
+        <button data-brain-region="visual" data-target="./life.html#photography"><span>05</span> Ways of seeing</button>
+        <button data-brain-region="about" data-target="#contact"><span>06</span> About & contact</button>
+      </nav>
+      <p class="mapping-note">The brain is a thematic navigation map—not a claim that complex human activities belong to single regions.</p>
+    </section>
+
+    <section id="research" class="section paper research-lens" aria-labelledby="lens-title">
+      <div class="section-marker"><span>01</span><span>Research lens</span></div>
+      <div class="section-heading" data-reveal>
+        <p class="kicker">One research program, three connected lenses</p>
+        <h2 id="lens-title">From dynamics to<br><em>adaptive intelligence.</em></h2>
+        <p>My work asks how structured interactions give rise to memory, robust behavior, and meaningful representations—across brains and artificial systems.</p>
+      </div>
+      <div class="pillars">
+        <article class="pillar" data-reveal>
+          <span class="pillar-no">01</span><div class="pillar-rule"></div>
+          <h3>Neural Dynamics<br>& Memory</h3>
+          <p>How population dynamics support memory maintenance, consolidation, replay, and behavioral variability.</p>
+          <span class="method-line">Attractors · Neural fields · Circular statistics</span>
+        </article>
+        <article class="pillar" data-reveal>
+          <span class="pillar-no">02</span><div class="pillar-rule"></div>
+          <h3>NeuroAI &<br>Adaptive Intelligence</h3>
+          <p>How salience, surprise, intrinsic motivation, replay, and homeostasis might inform more adaptive agents.</p>
+          <span class="method-line">Biological principles · Agent learning · Mechanisms</span>
+        </article>
+        <article class="pillar" data-reveal>
+          <span class="pillar-no">03</span><div class="pillar-rule"></div>
+          <h3>Geometric &<br>Dynamical ML</h3>
+          <p>How symmetry, invariance, topology, and system structure can make learning more robust and interpretable.</p>
+          <span class="method-line">Equivariance · Validation · Reliability</span>
+        </article>
+      </div>
+      <div class="lens-bridge" aria-hidden="true"><span></span><i></i><span></span><i></i><span></span></div>
+    </section>
+
+    <section class="field-lab" aria-labelledby="field-title">
+      <div class="field-copy" data-reveal>
+        <span class="eyebrow">Interactive neural field · 01</span>
+        <h2 id="field-title">A memory is not a file.<br><em>It is a state that persists.</em></h2>
+        <p>This sketch echoes the continuous-attractor systems I study. Perturb the activity field and watch recurrent dynamics recover a coherent representation.</p>
+        <div class="field-controls">
+          <button id="field-toggle" class="mini-button" type="button" aria-pressed="false"><span class="control-icon">Ⅱ</span> Pause</button>
+          <button id="field-reset" class="mini-button" type="button"><span class="control-icon">↺</span> Reset</button>
+        </div>
+      </div>
+      <div class="field-viz" data-reveal>
+        <canvas id="field-canvas" role="img" aria-label="Interactive plot of a persistent activity bump across a one-dimensional neural field. Move or tap to perturb it."></canvas>
+        <div class="field-meta"><span>NEURAL POSITION θ</span><span>ACTIVITY u(θ,t)</span></div>
+        <p>Move or tap to perturb <span aria-hidden="true">↗</span></p>
+      </div>
+    </section>
+
+    <section id="work" class="section paper selected-work" aria-labelledby="work-title">
+      <div class="section-marker"><span>02</span><span>Selected research</span></div>
+      <div class="section-heading compact" data-reveal>
+        <h2 id="work-title">Questions made<br><em>computable.</em></h2>
+        <p>Selected projects with their research question, method, contribution, and evidence—not just their title.</p>
+      </div>
+
+      <article id="project-replay" class="project project-featured" data-project="replay" data-reveal>
+        <div class="project-visual manifold-visual" aria-label="Conceptual illustration of two activity bumps separating on a circular memory manifold">
+          <canvas id="manifold-canvas" aria-hidden="true"></canvas>
+          <span class="visual-label top">REPLAY PHASE</span><span class="visual-label bottom">CONTINUOUS MEMORY MANIFOLD</span>
+        </div>
+        <div class="project-copy">
+          <div class="project-meta"><span>Independent research · 2025—present</span><span>Signature Work Distinction</span></div>
+          <h3>Sleep Replay on Continuous Memory Manifolds</h3>
+          <p class="question">Does replay merely strengthen memories—or can its timing and neural overlap determine whether similar memories blend or separate?</p>
+          <ul class="project-evidence"><li><strong>4,032-row</strong> matched simulation study</li><li><strong>0.0517 rad</strong> separation in a bounded regime</li><li><strong>48-subject</strong> locked replication</li></ul>
+          <p class="project-methods">Continuous attractors · neural fields · circular statistics · bootstrap & permutation inference · MATLAB · Python</p>
+          <div class="project-links"><a href="https://github.com/Yuanfei-Hu/sleep-replay-continuous-manifold" target="_blank" rel="noreferrer">Code & project <span>↗</span></a><button class="text-button" data-open-project="replay" type="button">Methods & contribution <span>+</span></button></div>
+        </div>
+      </article>
+
+      <article id="project-se2" class="project project-reverse" data-project="se2" data-reveal>
+        <div class="project-visual robot-visual" aria-label="Animated two-link robotic arm under coordinate-frame transformation">
+          <svg id="robot-svg" viewBox="0 0 600 420" role="img" aria-label="Two-link arm tracking a circular trajectory while coordinate axes transform">
+            <g class="orbit"><circle cx="345" cy="190" r="112"/><circle class="orbit-dash" cx="345" cy="190" r="82"/></g>
+            <g class="axes axes-a"><path d="M100 338H220M100 338V218"/><text x="224" y="345">x</text><text x="91" y="210">y</text></g>
+            <g class="axes axes-b"><path d="M442 325l78-55M442 325l-55-78"/><text x="526" y="269">x′</text><text x="378" y="244">y′</text></g>
+            <g class="arm"><circle class="joint base" cx="185" cy="318" r="13"/><line class="limb one" x1="185" y1="318" x2="315" y2="238"/><circle class="joint" cx="315" cy="238" r="10"/><line class="limb two" x1="315" y1="238" x2="410" y2="145"/><circle class="end" cx="410" cy="145" r="8"/></g>
+            <path class="residual" d="M410 145 Q456 173 463 223"/>
+          </svg>
+          <span class="visual-label top">SE(2) CONSISTENCY</span><span class="visual-score">0.8568 <small>LOCKED MACRO AUROC</small></span>
+        </div>
+        <div class="project-copy">
+          <div class="project-meta"><span>Independent collaborator · 2026</span><span class="status submitted">Manuscript submitted</span></div>
+          <h3>Geometry-Informed SE(2) Consistency Monitoring</h3>
+          <p class="question">Can geometric consistency under coordinate-frame transformations provide a lightweight, interpretable signal for online robotic fault monitoring?</p>
+          <ul class="project-evidence"><li><strong>8</strong> simulated fault types</li><li><strong>Healthy-only</strong> calibration</li><li><strong>Locked</strong> and OOD stress tests</li></ul>
+          <p class="project-methods">SE(2) equivariance · anomaly detection · robotic control · locked validation · PyTorch · Python</p>
+          <div class="project-links"><a href="https://doi.org/10.5281/zenodo.22208341" target="_blank" rel="noreferrer">Reproducibility archive <span>↗</span></a><button class="text-button" data-open-project="se2" type="button">Methods & contribution <span>+</span></button></div>
+        </div>
+      </article>
+
+      <article id="project-chaos" class="project" data-project="chaos" data-reveal>
+        <div class="project-visual phase-visual" aria-label="Conceptual phase-space transitions among recall, drift, and memory loss">
+          <canvas id="phase-canvas" aria-hidden="true"></canvas>
+          <span class="regime recall">RECALL</span><span class="regime drift">DRIFT</span><span class="regime loss">MEMORY LOSS</span>
+        </div>
+        <div class="project-copy">
+          <div class="project-meta"><span>Jianfeng Lu Lab · Duke University</span><span>Research assistant · 2024</span></div>
+          <h3>Attractor Networks, Forgetting, and Chaos</h3>
+          <p class="question">How do network regimes govern transitions among stable recall, drift, and memory loss?</p>
+          <ul class="project-evidence"><li><strong>300+</strong> MATLAB simulations</li><li><strong>PRX 13, 011009</strong> reproduced</li><li><strong>$1,000</strong> research award</li></ul>
+          <p class="project-methods">Attractor networks · dynamical mean-field theory · nonlinear dynamics · reproducibility · MATLAB</p>
+          <div class="project-links"><button class="text-button" data-open-project="chaos" type="button">Methods & contribution <span>+</span></button></div>
+        </div>
+      </article>
+
+      <div class="secondary-work" data-reveal>
+        <article><span>01 / Forecasting</span><h3>Nonlinear Dynamics & Forecasting</h3><p>Led a five-member team across 150+ multi-trial CO₂ time series, comparing nonlinear ODE, LSTM, and tree-based models.</p><b>17–24% improvement over ODE baselines</b></article>
+        <article><span>02 / Synthetic biology</span><h3>DKU iGEM 2024</h3><p>Led multiscale diffusion-gradient and degradation modeling within a 12-member interdisciplinary team.</p><b>Silver Medal · &gt;60% variance explained</b></article>
+        <article><span>03 / Interdisciplinary</span><h3>Shape of Pain</h3><p>Founded a project connecting blood-flow heatmaps, PDE-based diffusion, and multimodal representations of pain.</p><b>Top-tier seed funding</b></article>
+      </div>
+    </section>
+
+    <section class="evidence" aria-labelledby="evidence-title">
+      <div class="section-marker light"><span>03</span><span>Evidence, not scale for its own sake</span></div>
+      <div class="evidence-heading"><h2 id="evidence-title">Built to be<br><em>examined.</em></h2><p>These values indicate experimental scope and methodological care. They are entry points to protocols, uncertainty, and reproducible evidence—not substitutes for scientific judgment.</p></div>
+      <div class="evidence-grid">
+        <div><strong>4,032</strong><span>simulation rows</span></div><div><strong>48</strong><span>subject locked replication</span></div><div><strong>300+</strong><span>DMFT simulations</span></div><div><strong>0.8568</strong><span>locked macro AUROC</span></div><div><strong>8</strong><span>robotic fault types</span></div><div><strong>150+</strong><span>time-series datasets</span></div>
+      </div>
+    </section>
+
+    <section id="outputs" class="section paper outputs" aria-labelledby="outputs-title">
+      <div class="section-marker"><span>04</span><span>Publications & outputs</span></div>
+      <div class="section-heading compact"><h2 id="outputs-title">Research you can<br><em>inspect.</em></h2></div>
+      <div class="output-list">
+        <article><div><span class="output-type">Submitted manuscript · 2026</span><h3>Geometry-Informed SE(2) Consistency Monitoring for Robotic Fault Detection</h3><p>Co-first author, listed first · Submitted to <em>Robotics and Autonomous Systems</em></p></div><div class="output-actions"><a href="https://doi.org/10.5281/zenodo.22208341" target="_blank" rel="noreferrer">Archive ↗</a></div></article>
+        <article><div><span class="output-type">Research repository · 2025—present</span><h3>Sleep Replay on Continuous Memory Manifolds</h3><p>Code, protocols, simulation outputs, and analysis.</p></div><div class="output-actions"><a href="https://github.com/Yuanfei-Hu/sleep-replay-continuous-manifold" target="_blank" rel="noreferrer">Code ↗</a></div></article>
+        <article><div><span class="output-type">Curriculum vitae · updated 2026</span><h3>Academic CV</h3><p>Education, research experience, projects, and methods.</p></div><div class="output-actions"><a href="./assets/docs/Yuanfei_Cheyenne_Hu_CV.pdf" download>PDF ↓</a></div></article>
+      </div>
+    </section>
+
+    <section id="path" class="trajectory" aria-labelledby="path-title">
+      <div class="section-marker light"><span>05</span><span>Education & trajectory</span></div>
+      <div class="trajectory-main"><h2 id="path-title">A path from equations<br>toward <em>experience.</em></h2>
+        <div class="path-line" aria-label="Applied mathematics to NeuroAI trajectory"><span>Applied mathematics</span><i>→</i><span>Nonlinear dynamics</span><i>→</i><span>Computational neuroscience</span><i>→</i><span>Biomedical informatics</span><i>→</i><span>NeuroAI</span></div>
+      </div>
+      <div class="education-grid">
+        <article><span class="edu-date">2026—2027 expected</span><h3>National University<br>of Singapore</h3><p>MSc Biomedical Informatics<br>Analytics Track</p></article>
+        <article><span class="edu-date">Class of 2026</span><h3>Duke Kunshan University<br>& Duke University</h3><p>BS Applied Mathematics & Computational Science<br>BA Interdisciplinary Studies</p></article>
+        <div class="foundations"><span>Intellectual foundations</span><p>Machine learning · probability & statistics · linear algebra · ODEs & PDEs · dynamical systems · computational neuroscience · cognitive neuroscience · numerical analysis</p></div>
+      </div>
+      <div class="honors"><span>Selected distinctions</span><p>Chancellor’s Scholarship <i>·</i> Dean’s List with Distinction, Top 10% <i>·</i> National First-Class Athlete <i>·</i> Royal Academy of Dance A2 Distinction <i>·</i> DKU Athletic Champion, 2022 & 2023</p></div>
+    </section>
+
+    <section id="about" class="about paper" aria-labelledby="about-title">
+      <div class="portrait-wrap" data-reveal><img src="./assets/images/yuanfei-portrait.webp" alt="Yuanfei Hu seated in a warm interior, looking upward" width="1600" height="900" loading="lazy"><span>Between models and lived experience.</span></div>
+      <div class="about-copy" data-reveal>
+        <div class="section-marker"><span>06</span><span>About</span></div>
+        <h2 id="about-title">Mechanistic in method.<br><em>Human in outlook.</em></h2>
+        <p>My path into computational neuroscience began with applied mathematics and a fascination with how simple local rules can produce complex, adaptive behavior. I now work across modeling, machine learning, and neuroscience to connect mechanistic understanding with capable intelligent systems.</p>
+        <p>Outside research, dance, athletics, travel, and photography shape how I think about disciplined practice, observation, adaptation, and intelligence in the body.</p>
+        <a class="editorial-link" href="./life.html">Enter life gallery <span>↗</span></a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="contact-inner">
+        <span class="eyebrow">Open to research conversations</span>
+        <h2 id="contact-title">Let’s explore a<br><em>good question.</em></h2>
+        <p>I’m interested in PhD, research-assistant, and collaborative conversations across computational neuroscience, NeuroAI, neural dynamics, memory, adaptive agents, geometric learning, and research-oriented machine learning.</p>
+        <p class="opportunity">Intended PhD timeline · Fall 2027 entry</p>
+        <a class="contact-email" href="mailto:yuanfei.hu@u.nus.edu">yuanfei.hu@u.nus.edu <span>↗</span></a>
+        <div class="contact-links"><a href="https://github.com/Yuanfei-Hu" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/yuanfei-hu-b6a3a22a9/" target="_blank" rel="noreferrer">LinkedIn</a><a href="./assets/docs/Yuanfei_Cheyenne_Hu_CV.pdf" download>CV</a></div>
+        <div class="contact-meta"><span>Singapore</span><span>Mandarin · English · conversational Spanish</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Yuanfei (Cheyenne) Hu</span><span>Designed around dynamics, evidence, and curiosity.</span><a href="#top">Back to top ↑</a></footer>
+
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Close project details">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+</body>
+</html>
