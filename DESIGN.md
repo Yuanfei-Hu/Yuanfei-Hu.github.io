@@ -2,9 +2,9 @@
 
 ## Brand concept
 
-**Dynamics, made visible.** The site frames Yuanfei as a mathematically grounded computational scientist whose research connects memory, adaptive behavior, and intelligent systems. The opening feels like a research observatory: deep neural blue, a slowly rotating line-based brain, and precise technical labels. Long-form sections shift to warm paper, where editorial typography keeps the science readable and human.
+The site presents Yuanfei first as a researcher rather than as a personal brand. Its tone is direct, first-person, and specific: current position, research questions, completed work, and interpretive limits. The opening retains the neural-map visual identity, but the language is closer to an academic introduction than to campaign or product copy.
 
-The Life gallery is a separate museum wing rather than a competing identity. Garnet, amber, and midnight blue create a more sensory register while preserving the same typography, grid, and restraint.
+Research, Work, About, and Life are separate pages. This prevents the homepage from becoming an exhaustive scrolling CV and lets faculty or recruiters move directly to the material they need. The Life page remains visually distinct without competing with the research identity.
 
 ## Color tokens
 
@@ -38,15 +38,14 @@ Body text starts at 16px. Reading widths stay near 55–70 characters. Major hea
 
 ## Core components
 
-- Fixed conventional navigation with scroll state and mobile menu
+- Fixed page-based navigation with clear current-page state and mobile menu
 - Conceptual neural-map canvas with region focus card and list alternative
-- Research-pillar triptych connected by a visual bridge
+- Research page organized around three connected areas and four current questions
 - Interactive continuous-attractor field with pause/reset controls
 - Project case studies with distinct scientific visualizations
 - Native accessible project-detail dialog
-- Evidence strip framed as scope and reproducibility, not prestige metrics
-- Output rows with only real links
-- Intellectual trajectory and understated distinctions
+- Work page with project narratives, evidence, and only real output links
+- About page with academic trajectory, methods, understated distinctions, and contact
 - Life-gallery collections with honest empty states
 - Data-driven photograph grid and native lightbox
 - Collaboration/contact close

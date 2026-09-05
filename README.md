@@ -26,7 +26,10 @@ The site uses relative asset links and therefore works from either a user site o
 | Change | File |
 | --- | --- |
 | Project details and dialog copy | `dist/data/content.js` |
-| Homepage copy and section order | `dist/index.html` |
+| Homepage and primary introduction | `dist/index.html` |
+| Research interests and questions | `dist/research.html` |
+| Detailed projects and outputs | `dist/work.html` |
+| Background, education, and contact | `dist/about.html` |
 | Life-gallery copy | `dist/life.html` |
 | Colors, typography, spacing, responsive rules | `dist/assets/css/site.css` |
 | Interactions and simulations | `dist/assets/js/site.js` |
